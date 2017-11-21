@@ -36,17 +36,33 @@ body {
 }
 
 .list-item-header {
-  height: 80px;
+  display: flex;
+  padding: 14px 0px 14px 0px;
+}
+
+.list-item-header-text {
+  padding: 0px 0px 0px 14px;
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
   justify-content: center;
 }
 
 .list-item-caret {
   color: white;
-  float: right;
   margin-right: 16px;
   cursor: pointer;
+  font-size: 2em;
+  max-width: 50px;
+  align-self: flex-end;
+}
+
+.header-detail {
+  color: white;
+  font-size: 0.8em;
+  margin-top: 14px;
+  opacity: 0.7;
+  line-height: 1.5;
 }
 
 .list-body {
@@ -57,7 +73,6 @@ body {
 .header-text {
   font-size: 2em;
   color: #EDE7F6;
-  margin-left: 24px;
 }
 
 .sublist-item {
