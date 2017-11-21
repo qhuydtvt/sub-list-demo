@@ -1,0 +1,89 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  padding: 20px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.bg-blue {
+  background-color: #3F51B5;
+}
+
+.bg-purple {
+  background-color: #4527A0;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+.list-item {
+  display: flex;
+  flex-flow: column;
+  align-self: stretch;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+.list-item-header {
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.list-item-caret {
+  color: white;
+  float: right;
+  margin-right: 16px;
+  cursor: pointer;
+}
+
+.list-body {
+  flex-grow: 1;
+  display: none;
+}
+
+.header-text {
+  font-size: 2em;
+  color: #EDE7F6;
+  margin-left: 24px;
+}
+
+.sublist-item {
+  font-size: 1.5em;
+  padding: 20px;
+  border-bottom: #EEEEEE 1px solid;
+}
+
+.sublist-item-no {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.sublist-item-icon {
+  padding: 10px;
+  width: 24px;
+  height: 24px;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  color: white;
+  margin-right: 8px;
+}
+
+.sublist-item:hover {
+  cursor: pointer;
+  background-color: #E8EAF6;
+}
