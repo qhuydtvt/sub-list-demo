@@ -18,8 +18,16 @@ body {
   background-color: #3F51B5;
 }
 
+.bg-light-blue {
+  background-color: #C5CAE9;
+}
+
 .bg-purple {
   background-color: #4527A0;
+}
+
+.bg-light-purple {
+  background-color: #D1C4E9;
 }
 
 .list {
@@ -83,6 +91,7 @@ body {
   font-size: 1.5em;
   padding: 20px;
   border-bottom: #EEEEEE 1px solid;
+  display: flex;
 }
 
 .sublist-item-no {
@@ -99,7 +108,19 @@ body {
   align-items: center;
   border-radius: 100%;
   color: white;
-  margin-right: 8px;
+  margin-right: 14px;
+}
+
+.sublist-item-detail {
+  flex-grow: 1;
+  display: flex;
+  flex-flow: column;
+}
+
+.sublist-item-progress {
+  margin-top: 10px;
+  height: 2px;
+  width: 100%;
 }
 
 .sublist-item:hover {
